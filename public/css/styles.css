@@ -86,3 +86,38 @@ section {
   transform: scale(1.1);
   transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
 }
+.ts {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #007acc;
+}
+.ts p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.ts:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
+.assembly {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #654ff0;
+  letter-spacing: -0.45rem;
+}
+.assembly p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.assembly:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
