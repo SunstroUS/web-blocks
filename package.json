@@ -1,0 +1,19 @@
+{
+  "name": "web-blocks",
+  "version": "1.0.0",
+  "description": "Building blocks of the web :D",
+  "main": "index.js",
+  "scripts": {
+    "compile": "less-watch-compiler public/less public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunstroUS/web-blocks.git"
+  },
+  "author": "Sunstrous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunstroUS/web-blocks/issues"
+  },
+  "homepage": "https://github.com/SunstroUS/web-blocks#readme"
+}
