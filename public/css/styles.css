@@ -1,3 +1,88 @@
+@font-face {
+  font-family: "Neutra-Text-Bold";
+  src: url("../fonts/Neutra-Text-Bold.otf") format("opentype");
+}
 body {
-  background: red;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Neutra-Text-Bold";
+}
+nav h1 {
+  font-size: 5rem;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.code-block {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+}
+.code-block p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.code-block:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
+.html {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #e44f26;
+}
+.html p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.html:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
+.html p {
+  text-align: left;
+  height: 130px;
+  margin: 0px 0 0 65px;
+}
+.js {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #f0db4f;
+}
+.js p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.js:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
+.css {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #274de4;
+}
+.css p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.css:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
 }

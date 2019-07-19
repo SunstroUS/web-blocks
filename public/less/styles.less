@@ -1,3 +1,61 @@
+@font-face {
+  font-family: "Neutra-Text-Bold";
+  src: url("../fonts/Neutra-Text-Bold.otf") format("opentype");
+}
+
 body {
-  background: red;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Neutra-Text-Bold";
+}
+
+nav h1 {
+  font-size: 5rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+// Mixin for every block
+.code-block {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+
+  p {
+    font-size: 10rem;
+    text-align: right;
+    margin: 130px 10px;
+    color: #1a191e;
+  }
+
+  &:hover {
+    z-index: 2;
+    transform: scale(1.1);
+    transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+  }
+}
+
+// Blocks
+.html {
+  .code-block;
+  background: #e44f26;
+
+  p {
+    text-align: left;
+    height: 130px;
+    margin: 0px 0 0 65px;
+  }
+}
+
+.js {
+  .code-block;
+  background: #f0db4f;
+}
+
+.css {
+  .code-block;
+  background: #274de4;
 }
