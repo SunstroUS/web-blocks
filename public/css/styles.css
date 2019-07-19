@@ -121,3 +121,76 @@ section {
   transform: scale(1.1);
   transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
 }
+.python {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #3473a7;
+}
+.python p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.python:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
+.ruby {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #e61521;
+}
+.ruby p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.ruby:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
+.php {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #7477ae;
+}
+.php p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.php:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
+.php p {
+  margin: 130px 30px 0 0;
+  letter-spacing: -0.35rem;
+}
+.go {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #29beb1;
+  letter-spacing: -0.35rem;
+}
+.go p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.go:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
