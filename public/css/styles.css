@@ -194,3 +194,58 @@ section {
   transform: scale(1.1);
   transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
 }
+.react {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #00d8ff;
+}
+.react p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.react:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
+.vue {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #40b37f;
+}
+.vue p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.vue:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
+.vue p {
+  margin: 130px 15px 0 0;
+  letter-spacing: -0.65rem;
+}
+.angular {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  background: #d70430;
+}
+.angular p {
+  font-size: 10rem;
+  text-align: right;
+  margin: 130px 10px;
+  color: #1a191e;
+}
+.angular:hover {
+  z-index: 2;
+  transform: scale(1.1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
