@@ -4,6 +4,7 @@
   "description": "Building blocks of the web :D",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "compile": "less-watch-compiler public/less public/css"
   },
   "repository": {
